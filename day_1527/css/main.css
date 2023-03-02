@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  color: #132A46;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom left, #3D9989, #5AB1E2);
+}
+
+.share {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.share-content {
+  padding: 50px;
+}
+.share-content-title h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.share-content_doc {
+  background-color: #E8F5F3;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.share-content_doc-box {
+  padding: 0 50px;
+  padding-top: 45px;
+  width: 100%;
+}
+.share-content_doc-box input {
+  width: 75%;
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 20px;
+}
+.share-content_doc-box input::-moz-placeholder {
+  color: #132A46;
+}
+.share-content_doc-box input::placeholder {
+  color: #132A46;
+}
+.share-content_doc-box button {
+  width: 20%;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #4E7D75;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.share-content_doc-box button:hover {
+  background-color: #5AB1E2;
+  letter-spacing: 1.25px;
+}
+.share-content_bottom h2 {
+  margin-bottom: 20px;
+}
+.share-content_bottom-open .drop:hover span {
+  transform: rotate(90deg);
+}
+.share-content_bottom-open img {
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+}
+.share-content_bottom-open a {
+  font-weight: 500;
+}
+.share-content_bottom-open a span {
+  margin-left: 3px;
+}
+.share-content_bottom-open a span img {
+  width: 0.7em;
+  height: 0.7em;
+  transition: all 0.4s ease;
+}
+.share-content_bottom-open p {
+  padding: 10px 0;
+}
+.share-content_bottom .link {
+  display: block;
+  margin-top: 20px;
+  color: #4E7D75;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
