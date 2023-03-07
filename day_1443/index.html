@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <button id="modalBtn" class="btn btn-open">New Item</button>
+
+    <div id="myModal" class="modal">
+        <div class="modalContent">
+            <h1 class="header">Add new item</h1>
+            <span id="close" class="close">&times;</span>
+
+            <form action="#">
+                <div class="select-item">
+                    <p>What kind of item would you like to add?</p>
+
+                    <div class="select-radio">
+                        <div class="radio">
+                            <input type="radio" id="service" name="add" value="Service">
+                            <label for="">Service</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="product" name="add" value="Product">
+                            <label for="">Product</label>
+                        </div>
+                    </div>
+                </div>
+                <p>Name</p>
+                <input class="msg" type="text" name="Name" placeholder="Eg. Business Consulting" required>
+                <p>Description</p>
+                <textarea name="mesaj" id="mesaj" placeholder="Describe your product" required></textarea>
+                <p>Price</p>
+                <input class="msg" type="number" name="Price" placeholder="Enter amount" required>
+                <button class="btn btn-light">Cancel</button>
+                <button type="submit" class="btn btn-dark">Add item</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
