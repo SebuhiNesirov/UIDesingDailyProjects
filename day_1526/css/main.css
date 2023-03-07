@@ -14,4 +14,26 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #F2F5FF;
+}
+
+.language {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.language .language-content {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.language .language-content .language-content_selection .language-content_selection-list .language-content_selection-list-icon img {
+  width: 25px;
+  height: 25px;
+}
+.language .language-content .language-content_bottom button span {
+  font-size: 2em;
 }/*# sourceMappingURL=main.css.map */

@@ -41,3 +41,56 @@ body {
     background-color:$background-color;
 }
 
+
+.language {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    // background-color: transparent;
+    border: 2px solid $light-color;
+    border-radius: 20px;
+    padding: 20px;
+    
+    .language-content {
+        // width: 450px;
+        // height: 400px;
+
+        padding: 30px;
+        background-color: $light-color;
+        border-radius: 10px;
+
+        h2 {}
+
+        .language-content_selection {
+
+            .language-content_selection-list {
+
+                .language-content_selection-list_lang {
+                    
+                    p {}
+                }
+
+                .language-content_selection-list-icon {
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+
+            
+        }
+        
+        .language-content_bottom {
+            
+            button {
+
+                span {
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+}
