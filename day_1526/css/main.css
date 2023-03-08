@@ -23,17 +23,42 @@ body {
   transform: translate(-50%, -50%);
   border: 2px solid #ffffff;
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 .language .language-content {
-  padding: 30px;
+  padding: 50px;
   background-color: #ffffff;
   border-radius: 10px;
+}
+.language .language-content h2 {
+  margin-bottom: 20px;
+}
+.language .language-content .language-content_selection .language-content_selection-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.language .language-content .language-content_selection .language-content_selection-list .language-content_selection-list-icon {
+  margin-right: 15%;
 }
 .language .language-content .language-content_selection .language-content_selection-list .language-content_selection-list-icon img {
   width: 25px;
   height: 25px;
 }
+.language .language-content .language-content_bottom button {
+  width: 300px;
+  font-size: 1em;
+  padding: 16px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #000000;
+}
 .language .language-content .language-content_bottom button span {
-  font-size: 2em;
+  font-size: 18px;
+  margin-right: 15px;
 }/*# sourceMappingURL=main.css.map */
