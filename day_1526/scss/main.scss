@@ -27,6 +27,19 @@ $dark-color:#000000;
     border-radius: 10px;
 }
 
+.bar {
+    text-align: right;
+    background-color: red;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.cloud {
+    width: 15%;
+    background-color: $dark-color;
+}
+
+
 // 
 
 
@@ -57,9 +70,9 @@ body {
 .language {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
     transform: translate(-50%,-50%);
-    display: none;
+    // display: none;
     
     .language-content {
 
@@ -130,8 +143,8 @@ body {
 
 .navigation {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 40%;
     transform: translate(-50%,-50%);
     // display: none;
     
@@ -167,7 +180,73 @@ body {
     }
 }
 
-
-
 // Navigation End
 
+
+
+// Storage
+
+.storage {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    &-content {
+        padding: 50px;
+        background-color: $light-color;
+        border-radius: 10px;
+
+        &_title {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            margin-bottom: 16px;
+
+            img {
+                width: 50px;
+                height: 50px;
+                margin-right: 16px;
+            }
+            h3 {}
+        }
+
+        &_skill {
+            margin-bottom: 36px;
+
+            &-bars {
+                width: 100%;
+                height: 10px;
+                background-color: $background-color;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                
+            }
+            p {
+                color: $primary-color;
+            }
+        }
+
+        &_bottom {
+
+            button {
+                width: 300px;
+                font-size: 1em;
+                padding: 16px;
+                border-radius: 5px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                color: $light-color;
+                background-color: $dark-color;
+
+            }
+        }
+    }
+}
+
+
+// Storage ENd
