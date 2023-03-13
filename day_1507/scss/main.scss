@@ -1,0 +1,132 @@
+
+
+
+// Fonts
+
+// Color
+$primary-backgroung-color: #EEEEEE;
+
+$primary-color:#777777;
+
+$light-color:#fff;
+$dark-color:#000;
+
+// Variables
+
+.bg-temp {
+    background-color: $light-color;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+
+// Reset
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: $primary-backgroung-color;
+}
+
+// Custom 
+
+
+// Collection
+.collection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+    &-content {
+
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        &_list {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            
+
+            &-item {
+                margin-bottom: 15px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+
+                img {
+                    margin-right: 12px;
+                }
+
+                p {}
+            }
+        }
+    }
+}
+
+// Collection End
+
+
+// Dashboard 
+
+.dashboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+        h2{
+            margin-bottom: 25px;
+        }
+
+        &_list {
+
+            &-items {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 25px;
+                min-width: 250px;
+
+                img{
+                    margin-right: 10px;
+                }
+
+                &_info {
+                    h3 {}
+                    p {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+        a {
+            color:$dark-color;
+            font-weight: bold;
+            font-size: 1em;
+        }
+    }
+}
+
+// Dashboard End
