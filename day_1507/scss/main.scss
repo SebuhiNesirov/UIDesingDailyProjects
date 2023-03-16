@@ -130,3 +130,72 @@ body {
 }
 
 // Dashboard End
+
+
+
+// Acoount
+
+.account {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+    &-content {
+
+        &_title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            border-bottom: 2px solid $primary-backgroung-color;
+            padding: 0 0 10px 0;
+
+            // h3 {}
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        &_user {
+            margin: 25px 0;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+
+            img {
+                margin-right: 10px;
+            }
+            // &-info {
+
+            //     h3 {}
+            //     p {}
+            // }
+        }
+        &_bottom {
+            
+            button {
+                width: 350px;
+                height: 50px;
+                color: $light-color;
+                background-color: $dark-color;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// Acoount End
+
+
+
+
+// Follow 
+
+
+
+// Follow  End

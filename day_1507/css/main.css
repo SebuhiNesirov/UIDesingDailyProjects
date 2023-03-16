@@ -74,4 +74,40 @@ body {
   color: #000;
   font-weight: bold;
   font-size: 1em;
+}
+
+.account {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.account-content_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #EEEEEE;
+  padding: 0 0 10px 0;
+}
+.account-content_title img {
+  width: 15px;
+  height: 15px;
+}
+.account-content_user {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.account-content_user img {
+  margin-right: 10px;
+}
+.account-content_bottom button {
+  width: 350px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
